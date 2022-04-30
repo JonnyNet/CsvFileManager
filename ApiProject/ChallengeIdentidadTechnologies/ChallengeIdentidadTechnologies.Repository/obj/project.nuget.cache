@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "8H+sSP1g3irlwEUKpMQjq9QQmd1u6MDgWo5REZ/2oE9vKYEwR815YBwKovqaZ3eGmWovQAlptnR9UpLzPnAEDQ==",
+  "dgSpecHash": "6hA/iaAA+bKMjk4ot06BhL5lUCKjHHC7FxdyYgJVV4s9gCaENTGuDft+Zfd9zmNCTckSiwvCUWSt246fysojJQ==",
   "success": true,
   "projectFilePath": "D:\\source\\CsvFileManager\\ApiProject\\ChallengeIdentidadTechnologies\\ChallengeIdentidadTechnologies.Repository\\ChallengeIdentidadTechnologies.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\codif\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\codif\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\codif\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\codif\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\codif\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\codif\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",
@@ -92,6 +94,7 @@
     "C:\\Users\\codif\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\codif\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
     "C:\\Users\\codif\\.nuget\\packages\\system.text.encoding.extensions\\4.3.0\\system.text.encoding.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\codif\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
     "C:\\Users\\codif\\.nuget\\packages\\system.text.regularexpressions\\4.3.0\\system.text.regularexpressions.4.3.0.nupkg.sha512",
     "C:\\Users\\codif\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
     "C:\\Users\\codif\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",

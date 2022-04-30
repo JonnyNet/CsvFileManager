@@ -8,6 +8,6 @@ namespace ChallengeIdentidadTechnologies.Entities.Interfaces
 	{
 		Task<int> Create(CsvFile csvFile);
 		Task<IEnumerable<CsvFile>> GetAll();
-		Task<CsvFile> Find(int id);
+		Task<string> GetTable(int id);
 	}
 }

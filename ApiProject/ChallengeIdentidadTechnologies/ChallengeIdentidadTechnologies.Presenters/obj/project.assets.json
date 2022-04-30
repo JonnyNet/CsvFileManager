@@ -31,16 +31,6 @@
           "bin/placeholder/ChallengeIdentidadTechnologies.DTOs.dll": {}
         }
       },
-      "ChallengeIdentidadTechnologies.Entities/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "compile": {
-          "bin/placeholder/ChallengeIdentidadTechnologies.Entities.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ChallengeIdentidadTechnologies.Entities.dll": {}
-        }
-      },
       "ChallengeIdentidadTechnologies.UseCasesInterfaces/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -88,11 +78,6 @@
       "path": "../ChallengeIdentidadTechnologies.DTOs/ChallengeIdentidadTechnologies.DTOs.csproj",
       "msbuildProject": "../ChallengeIdentidadTechnologies.DTOs/ChallengeIdentidadTechnologies.DTOs.csproj"
     },
-    "ChallengeIdentidadTechnologies.Entities/1.0.0": {
-      "type": "project",
-      "path": "../ChallengeIdentidadTechnologies.Entities/ChallengeIdentidadTechnologies.Entities.csproj",
-      "msbuildProject": "../ChallengeIdentidadTechnologies.Entities/ChallengeIdentidadTechnologies.Entities.csproj"
-    },
     "ChallengeIdentidadTechnologies.UseCasesInterfaces/1.0.0": {
       "type": "project",
       "path": "../ChallengeIdentidadTechnologies.UseCasesInterfaces/ChallengeIdentidadTechnologies.UseCasesInterfaces.csproj",
@@ -101,7 +86,6 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "ChallengeIdentidadTechnologies.Entities >= 1.0.0",
       "ChallengeIdentidadTechnologies.UseCasesInterfaces >= 1.0.0",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 5.0.0"
     ]
@@ -114,11 +98,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\source\\CsvFileManager\\ApiProject\\ChallengeIdentidadTechnologies\\ChallengeIdentidadTechnologies.UseCases\\ChallengeIdentidadTechnologies.UseCases.csproj",
-      "projectName": "ChallengeIdentidadTechnologies.UseCases",
-      "projectPath": "D:\\source\\CsvFileManager\\ApiProject\\ChallengeIdentidadTechnologies\\ChallengeIdentidadTechnologies.UseCases\\ChallengeIdentidadTechnologies.UseCases.csproj",
+      "projectUniqueName": "D:\\source\\CsvFileManager\\ApiProject\\ChallengeIdentidadTechnologies\\ChallengeIdentidadTechnologies.Presenters\\ChallengeIdentidadTechnologies.Presenters.csproj",
+      "projectName": "ChallengeIdentidadTechnologies.Presenters",
+      "projectPath": "D:\\source\\CsvFileManager\\ApiProject\\ChallengeIdentidadTechnologies\\ChallengeIdentidadTechnologies.Presenters\\ChallengeIdentidadTechnologies.Presenters.csproj",
       "packagesPath": "C:\\Users\\codif\\.nuget\\packages\\",
-      "outputPath": "D:\\source\\CsvFileManager\\ApiProject\\ChallengeIdentidadTechnologies\\ChallengeIdentidadTechnologies.UseCases\\obj\\",
+      "outputPath": "D:\\source\\CsvFileManager\\ApiProject\\ChallengeIdentidadTechnologies\\ChallengeIdentidadTechnologies.Presenters\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -142,9 +126,6 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\source\\CsvFileManager\\ApiProject\\ChallengeIdentidadTechnologies\\ChallengeIdentidadTechnologies.Entities\\ChallengeIdentidadTechnologies.Entities.csproj": {
-              "projectPath": "D:\\source\\CsvFileManager\\ApiProject\\ChallengeIdentidadTechnologies\\ChallengeIdentidadTechnologies.Entities\\ChallengeIdentidadTechnologies.Entities.csproj"
-            },
             "D:\\source\\CsvFileManager\\ApiProject\\ChallengeIdentidadTechnologies\\ChallengeIdentidadTechnologies.UseCasesInterfaces\\ChallengeIdentidadTechnologies.UseCasesInterfaces.csproj": {
               "projectPath": "D:\\source\\CsvFileManager\\ApiProject\\ChallengeIdentidadTechnologies\\ChallengeIdentidadTechnologies.UseCasesInterfaces\\ChallengeIdentidadTechnologies.UseCasesInterfaces.csproj"
             }

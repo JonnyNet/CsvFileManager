@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ChallengeIdentidadTechnologies.Common\ChallengeIdentidadTechnologies.Common.csproj" />
+    <ProjectReference Include="..\ChallengeIdentidadTechnologies.DTOs\ChallengeIdentidadTechnologies.DTOs.csproj" />
+  </ItemGroup>
+
+</Project>

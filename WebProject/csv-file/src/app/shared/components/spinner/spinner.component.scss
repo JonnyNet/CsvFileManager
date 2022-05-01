@@ -1,0 +1,27 @@
+.spinner {
+  position: fixed;
+  overflow: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 1;
+  z-index: 2240;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.loading-shade {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.15);
+  z-index: 2241;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+  
+  

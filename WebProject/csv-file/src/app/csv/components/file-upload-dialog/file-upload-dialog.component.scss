@@ -1,0 +1,38 @@
+.drop-zone {
+  border: dotted 3px lightgray;
+  padding: 4em;
+  text-align: center;
+  margin-bottom: .5em;
+  cursor: pointer;
+  background-color: rgb(240, 239, 239);
+  user-select: none; 
+}
+
+
+.invalid-drag {
+  border: dotted 3px red;
+}
+
+.valid-drag {
+  border: dotted 3px green;
+}
+
+.disabled-drag{
+  pointer-events: none;
+}
+
+.dragdrop {
+  font-weight: 900;
+  color: rgb(156, 156, 156);
+}
+
+.file-container {
+  width: 100%;
+  display: flex;
+  place-content: center space-between;
+  align-items: center;
+
+  mat-icon{
+    cursor: pointer;
+  }
+}

@@ -9,8 +9,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ChallengeIdentidadTechnologies.CsvManager\ChallengeIdentidadTechnologies.CsvManager.csproj" />
     <ProjectReference Include="..\ChallengeIdentidadTechnologies.Entities\ChallengeIdentidadTechnologies.Entities.csproj" />
     <ProjectReference Include="..\ChallengeIdentidadTechnologies.UseCasesInterfaces\ChallengeIdentidadTechnologies.UseCasesInterfaces.csproj" />
+    <ProjectReference Include="..\ChallengeIdentidadTechnologies.Validators\ChallengeIdentidadTechnologies.Validators.csproj" />
   </ItemGroup>
 
 </Project>

@@ -13,6 +13,7 @@
     <ProjectReference Include="..\ChallengeIdentidadTechnologies.Presenters\ChallengeIdentidadTechnologies.Presenters.csproj" />
     <ProjectReference Include="..\ChallengeIdentidadTechnologies.Repository\ChallengeIdentidadTechnologies.Repository.csproj" />
     <ProjectReference Include="..\ChallengeIdentidadTechnologies.UseCases\ChallengeIdentidadTechnologies.UseCases.csproj" />
+    <ProjectReference Include="..\ChallengeIdentidadTechnologies.Validators\ChallengeIdentidadTechnologies.Validators.csproj" />
   </ItemGroup>
 
 </Project>

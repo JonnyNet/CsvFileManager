@@ -1,8 +1,9 @@
-﻿using ChallengeIdentidadTechnologies.Entities.Interfaces;
+﻿using ChallengeIdentidadTechnologies.Common.Collection;
+using ChallengeIdentidadTechnologies.Entities.Interfaces;
 using ChallengeIdentidadTechnologies.Entities.POCOs;
 using ChallengeIdentidadTechnologies.Repository.DataContext;
+using ChallengeIdentidadTechnologies.Repository.Extensions;
 using Microsoft.EntityFrameworkCore;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -17,10 +18,9 @@ namespace ChallengeIdentidadTechnologies.Repository.Repositories
 			_context = context;
 		}
 
-		public async Task<int> Create(CsvFile csvFile)
+		public async Task Create(CsvFile csvFile)
 		{
 			await _context.AddAsync(csvFile);
-			return csvFile.Id;
 		}
 
 		public Task<string> GetTable(int id)
@@ -29,14 +29,14 @@ namespace ChallengeIdentidadTechnologies.Repository.Repositories
 			.Select(x => x.Table)
 			.SingleOrDefaultAsync();
 
-		public async Task<IEnumerable<CsvFile>> GetAll()
+		public Task<DataCollection<CsvFile>> GetAll(int page, int size)
 		{
-			var allObjects = await _context.CsvFiles.Select(s => new CsvFile
+			var allObjects = _context.CsvFiles.Select(s => new CsvFile
 			{
 				Id = s.Id,
 				Name = s.Name,
 				CreatedAt = s.CreatedAt,
-			}).ToListAsync();
+			}).GetPagedAsync(page, size);
 			return allObjects;
 		}
 	}

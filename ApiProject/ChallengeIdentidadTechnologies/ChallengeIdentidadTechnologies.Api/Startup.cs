@@ -29,6 +29,18 @@ namespace ChallengeIdentidadTechnologies.Api
 			});
 			services.AddChallengeIdentidadTechnologiesDependencies(Configuration);
 			services.AddControllers(option => option.Filters.Add<ExceptionHandlingAttribute>());
+
+			services.AddCors(options =>
+			{
+				options.AddDefaultPolicy(
+				builder =>
+				{
+					builder.WithOrigins("http://localhost:4200")
+					.AllowAnyHeader()
+					.WithMethods(new string[] { "POST", "GET" })
+					.AllowCredentials();
+				});
+			});
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -42,6 +54,12 @@ namespace ChallengeIdentidadTechnologies.Api
 				app.UseSwagger();
 				app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ChallengeIdentidadTechnologies.Api v1"));
 			}
+
+			app.UseCors(options =>
+				options.WithOrigins("http://localhost:4200")
+				.WithMethods(new string[] { "POST", "GET" })
+				.AllowAnyHeader()
+				.AllowCredentials());
 
 			app.UseHttpsRedirection();
 

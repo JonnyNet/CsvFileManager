@@ -17,6 +17,7 @@ namespace ChallengeIdentidadTechnologies.Repository
 				=> options.UseSqlServer(configuration.GetConnectionString("IdentidadTechnologies")));
 			services.AddScoped<ICsvFileRepository, CsvFileRespository>();
 			services.AddScoped<IUnitOfWork, UnitOfWork>();
+			services.AddScoped<ICsvFileObjectRepository, CsvFileObjectRepository>();
 			return services;
 		}
 

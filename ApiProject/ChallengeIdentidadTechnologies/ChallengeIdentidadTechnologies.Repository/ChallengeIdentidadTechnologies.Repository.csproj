@@ -17,4 +17,19 @@
     <ProjectReference Include="..\ChallengeIdentidadTechnologies.Entities\ChallengeIdentidadTechnologies.Entities.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="Resources\SqlStatement.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>SqlStatement.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\SqlStatement.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SqlStatement.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
 </Project>

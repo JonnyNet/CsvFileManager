@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  urlApi: "https://localhost:44375/",
+  csvFileModule: "api/v1/csv-file",
 };
 
 /*

@@ -1,4 +1,6 @@
-﻿using ChallengeIdentidadTechnologies.UseCasesInterfaces;
+﻿using ChallengeIdentidadTechnologies.CsvManager;
+using ChallengeIdentidadTechnologies.CsvManager.Adapters;
+using ChallengeIdentidadTechnologies.UseCasesInterfaces;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace ChallengeIdentidadTechnologies.UseCases
@@ -10,6 +12,8 @@ namespace ChallengeIdentidadTechnologies.UseCases
 			services.AddTransient<ICreateCsvFileInput, CreateCsvFileInteractor>();
 			services.AddTransient<IGetAllCsvFileInput, GetAllCsvFileInteractor>();
 			services.AddTransient<IGetDataCsvFileInput, GetDataCsvFileInteractor>();
+
+			services.AddTransient<ICsvAdapter, CsvAdapter>();
 			return services;
 		}
 	}

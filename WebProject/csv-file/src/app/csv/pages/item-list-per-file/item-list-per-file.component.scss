@@ -1,0 +1,16 @@
+.table {
+  display: block;
+
+  .text-ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0px 32px;
+    text-align: center;
+    width: calc(100% / 25);
+  }
+
+  .table-header {
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
